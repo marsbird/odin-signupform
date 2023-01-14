@@ -25,5 +25,36 @@ time, mark, audio, video {
 }
 
 body {
+	background: url("./img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg") no-repeat center/100%;
+	height: 100vh;
 	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+	min-width: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: white;
+}
+
+.right > * {
+	padding: 2rem 4rem;
+	border: 5px solid red;
+}
+
+.large-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+p + p {
+	padding-top: 1.5rem;
 }
