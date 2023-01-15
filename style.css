@@ -34,11 +34,29 @@ body {
 	background: url("/img/halie-west-25xggax4bSA-unsplash.jpg");
 }
 
+form {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+form > div {
+	border: 2px solid black;
+	padding: 2rem 3rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid > div {
+	display: flex;
+	flex-direction: column;
+}
+
 .large-text {
 	font-size: 1.5rem;
 	font-weight: bold;
-}
-
-form {
-	background-color: white;
 }
