@@ -32,7 +32,7 @@ body {
 
 .sidebar {
 	background: url("/img/halie-west-25xggax4bSA-unsplash.jpg") no-repeat left/cover;
-	min-width: 30%;
+	min-width: 40%;
 }
 
 form {
@@ -44,7 +44,7 @@ form {
 
 form > div {
 	/* border: 2px solid black; */
-	padding: 2rem 3rem;
+	padding: 2rem 6rem 2rem 3rem;
 }
 
 .grid {
@@ -67,4 +67,27 @@ form > div {
 .large-text {
 	font-size: 1.5rem;
 	font-weight: bold;
+}
+
+label {
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+* + p {
+	padding-top: 1rem;
+}
+
+button {
+	background-color: darkgreen;
+	color: white;
+	padding: 1rem 2rem;
+	font-weight: bold;
+	font-size: 1.25rem;
+	border-radius: 1rem;
+}
+
+input {
+	max-width: 15rem;
+	border: 1px solid lightgrey;
 }
