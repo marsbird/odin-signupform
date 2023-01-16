@@ -36,7 +36,7 @@ body {
 }
 
 form {
-	background-color: white;
+	background-color: rgb(248, 248, 248);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -48,8 +48,15 @@ form > div {
 }
 
 .grid {
+	background-color: rgb(255, 255, 255);
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	box-shadow: 0 0 1rem rgb(200,200,200);
+}
+
+.grid legend {
+	grid-column: 1 / span 2;
 }
 
 .grid > div {
