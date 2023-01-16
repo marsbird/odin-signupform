@@ -31,7 +31,8 @@ body {
 }
 
 .sidebar {
-	background: url("/img/halie-west-25xggax4bSA-unsplash.jpg");
+	background: url("/img/halie-west-25xggax4bSA-unsplash.jpg") no-repeat left/cover;
+	min-width: 30%;
 }
 
 form {
@@ -42,7 +43,7 @@ form {
 }
 
 form > div {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	padding: 2rem 3rem;
 }
 
